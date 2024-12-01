@@ -174,3 +174,15 @@ something = 12;
 // let animalObj = new animal("Lion");
 // animalObj.animalNameSet = "Tiger";
 // console.log(animalObj.animalName);
+function user(name, age, gender) {
+}
+user("Pramod", 22);
+function username(name = "Muskan") {
+    return name;
+}
+console.log(username());
+console.log(username("pramod"));
+function names(...name) {
+    return name;
+}
+console.log(names("Pramod", "Muskan", "Sital"));

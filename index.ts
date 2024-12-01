@@ -235,5 +235,24 @@ something = 12;
 // animalObj.animalNameSet = "Tiger";
 // console.log(animalObj.animalName);
 
+function user(name: string, age: number, gender?: string) {
+    
+}
 
+user("Pramod", 22);
+
+function username (name: string = "Muskan"): string{
+    return name;
+}
+
+console.log(username())
+console.log(username("pramod"))
+
+function names(...name: string[]) {
+    return name;
+}
+
+
+
+console.log(names("Pramod", "Muskan", "Sital"))
 
