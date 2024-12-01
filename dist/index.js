@@ -186,3 +186,6 @@ function names(...name) {
     return name;
 }
 console.log(names("Pramod", "Muskan", "Sital"));
+let input = document.querySelector("input");
+let para = document.querySelector("p");
+let btn = document.querySelector("button");

@@ -256,3 +256,7 @@ function names(...name: string[]) {
 
 console.log(names("Pramod", "Muskan", "Sital"))
 
+let input = document.querySelector("input") as HTMLInputElement;
+let para = document.querySelector("p") as HTMLParagraphElement;
+
+let btn = document.querySelector("button") as HTMLButtonElement;
