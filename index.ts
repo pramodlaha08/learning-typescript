@@ -260,3 +260,22 @@ let input = document.querySelector("input") as HTMLInputElement;
 let para = document.querySelector("p") as HTMLParagraphElement;
 
 let btn = document.querySelector("button") as HTMLButtonElement;
+
+let userName: "Pramod";
+
+userName = "Pramod"
+
+
+let fixedVal: 12;
+
+fixedVal = 12;
+
+let onlyTrue: true;
+
+onlyTrue = true
+
+let stringOrNum: "pramod" | 143;
+
+stringOrNum = "pramod";
+
+stringOrNum = 143;
